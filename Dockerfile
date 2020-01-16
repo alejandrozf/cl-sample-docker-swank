@@ -23,7 +23,7 @@ ENV LC_ALL en_US.UTF-8
 COPY sbclrc /root/.sbclrc
 
 RUN ros setup
-RUN ros install qlot
+RUN ros install alejandrozf/qlot
 RUN ros install clack
 ENV PATH /root/.roswell/bin:/usr/local/bin:$PATH
 
